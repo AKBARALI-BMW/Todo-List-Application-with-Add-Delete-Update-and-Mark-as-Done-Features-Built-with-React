@@ -1,38 +1,65 @@
-.App {
+
+
+.App{
+  color:  white;
   text-align: center;
+  margin-top: 5rem;
+}
+.taskbg{
+  background-color:  #555;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 22px;
+  position:relative;
+  /* padding: 10px, 140px ,10, 15px; */
+  padding: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.taskbg .done .taskText{
+ text-decoration: line-through;
+ opacity: 0.3;
+ flex: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.taskNumber{
+  color: white;
+  border-radius: 50%;
+  width: 26px;
+  border: 1px solid wheat;
+  height: 26px;
   display: flex;
-  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+  margin-right: 8px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.taskbg div{
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.icon_Wrap{
+  position: absolute;
+  top: 20%;
+  transform: translate(-50%);
+  right: 15px;
+  width: auto;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.taskbg .icon_Wrap span{
+  display: inline-block;
+  margin: 0px 10px 0px 20px;
+  cursor: pointer;
+  color: aqua;
+}
+
+.taskbg .icon_Wrap span :hover{
+  color: yellow;
+}
+
+.taskbg .taskText{
+  flex: 1;
 }
