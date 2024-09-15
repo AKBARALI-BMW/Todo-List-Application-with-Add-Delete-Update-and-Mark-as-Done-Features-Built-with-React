@@ -1,3 +1,13 @@
+Description
+A fully functional Todo List app built with React, enabling users to easily add, delete, update, and mark tasks as complete. This project demonstrates a clean, user-friendly interface for managing daily tasks. Features include task management with a modern UI, state management with React hooks, and real-time task updates. Ideal for learning or enhancing skills in React, JavaScript, and modern web development practices. Explore the repository to see code structure, reusable components, and live demo instructions.
+output screen short 
+
+![screencapture-localhost-3000-2024-09-12-23_44_04](https://github.com/user-attachments/assets/267d7ea5-5d07-489a-9626-c0e9bdcbe68f)
+
+![screencapture-localhost-3000-2024-09-12-23_47_13](https://github.com/user-attachments/assets/538b8056-8477-4fc1-8c5d-c8b716704b6a)
+
+![screencapture-localhost-3000-2024-09-12-23_47_43](https://github.com/user-attachments/assets/6282a321-56de-41bf-920d-c58f1d6d403e)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +78,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
